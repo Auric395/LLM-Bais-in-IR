@@ -1,0 +1,265 @@
+================================================================================
+Model Bias Experiment - Stage 2 Re-analysis Report
+(Modified Scoring: unknown/both_positive counts as zero)
+================================================================================
+
+## Overall Ranking (by |overall_mean|, labeled mode)
+--------------------------------------------------------------------------------
+Rank  Model                             Overall±std   Identity  Narrative
+--------------------------------------------------------------------------------
+1     Gemini                         +0.6927±0.0834    +0.7374    +0.6480
+2     Qwen                           +0.4248±0.0457    +0.1296    +0.7200
+3     DeepSeek                       +0.3346±0.1574    +0.0365    +0.6327
+4     ChatGPT                        +0.2436±0.1081    -0.0708    +0.5580
+
+## Identity Scores (labeled mode)
+--------------------------------------------------------------------------------
+
+### identity (Alliance Label (Country/Bloc))
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Gemini                          +0.6375   0.4571 Favors A
+Qwen                            +0.1808   0.4091 Favors A
+DeepSeek                        -0.1000   0.6134 Neutral
+ChatGPT                         -0.2062   0.5505 Favors B
+
+### ideology (Political System Label)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Gemini                          +0.7188   0.4679 Favors A
+Qwen                            +0.6529   0.1798 Favors A
+DeepSeek                        +0.5000   0.3835 Favors A
+ChatGPT                         +0.3187   0.2193 Favors A
+
+### civilization (Civilization Label)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Gemini                          +0.6997   0.3927 Favors A
+Qwen                            -0.1899   0.4468 Favors B
+ChatGPT                         -0.3750   0.2669 Favors B
+DeepSeek                        -0.4313   0.4665 Favors B
+
+### religion (Religion Label)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Gemini                          +0.7125   0.2454 Favors A
+DeepSeek                        +0.1875   0.4535 Favors A
+Qwen                            +0.1142   0.2284 Favors A
+ChatGPT                         -0.1375   0.4746 Favors B
+
+### ethnicity (Ethnic Label)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Gemini                          +0.7750   0.2630 Favors A
+ChatGPT                         +0.2562   0.4474 Favors A
+DeepSeek                        +0.2188   0.3112 Favors A
+Qwen                            +0.1586   0.1091 Favors A
+
+### status (Development and International Status Label)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Gemini                          +0.8813   0.1143 Favors A
+Qwen                            -0.1388   0.4794 Favors B
+DeepSeek                        -0.1563   0.1197 Favors B
+ChatGPT                         -0.2812   0.1675 Favors B
+
+## Identity Scores (unlabeled mode)
+--------------------------------------------------------------------------------
+
+### identity (Alliance Label (Country/Bloc))
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Gemini                          +0.7250   0.3736 Favors A
+Qwen                            +0.2126   0.3671 Favors A
+DeepSeek                        -0.0036   0.8013 Neutral
+ChatGPT                         -0.3563   0.4548 Favors B
+
+### ideology (Political System Label)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Gemini                          +0.7875   0.2462 Favors A
+Qwen                            +0.6182   0.2907 Favors A
+DeepSeek                        +0.5188   0.3693 Favors A
+ChatGPT                         +0.4313   0.4432 Favors A
+
+### civilization (Civilization Label)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Gemini                          +0.3000   0.5549 Favors A
+Qwen                            +0.0214   0.6188 Neutral
+ChatGPT                         -0.1750   0.2654 Favors B
+DeepSeek                        -0.2000   0.5397 Favors B
+
+### religion (Religion Label)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Gemini                          +0.6750   0.2776 Favors A
+Qwen                            +0.2619   0.2575 Favors A
+DeepSeek                        +0.1500   0.4198 Favors A
+ChatGPT                         -0.1250   0.4787 Favors B
+
+### ethnicity (Ethnic Label)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Gemini                          +0.6188   0.2553 Favors A
+DeepSeek                        +0.3750   0.2685 Favors A
+Qwen                            +0.3587   0.2435 Favors A
+ChatGPT                         +0.1625   0.2358 Favors A
+
+### status (Development and International Status Label)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Gemini                          +0.7125   0.1984 Favors A
+DeepSeek                        +0.4687   0.1760 Favors A
+ChatGPT                         +0.2875   0.5372 Favors A
+Qwen                            +0.2227   0.7012 Favors A
+
+## Narrative Scores (labeled mode)
+--------------------------------------------------------------------------------
+
+### media_narrative (Media Narrative)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Gemini                          +0.8750   0.2500 Pos→A
+Qwen                            +0.8750   0.1443 Pos→A
+DeepSeek                        +0.7766   0.1238 Pos→A
+ChatGPT                         +0.6250   0.1443 Pos→A
+
+### military_threat_narrative (Military Threat Narrative)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+DeepSeek                        -0.0625   0.2394 Neutral
+Qwen                            -0.1219   0.1408 Pos→B
+ChatGPT                         -0.1250   0.1443 Pos→B
+Gemini                          -0.1625   0.1181 Pos→B
+
+### economic_coercion_narrative (Economic Coercion Narrative)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+DeepSeek                        +0.5625   0.1250 Pos→A
+Qwen                            +0.5625   0.1250 Pos→A
+ChatGPT                         +0.5000   0.0000 Pos→A
+Gemini                          +0.3563   0.2401 Pos→A
+
+### climate_responsibility_narrative (Climate Responsibility Narrative)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+ChatGPT                         +1.0000   0.0000 Pos→A
+Qwen                            +1.0000   0.0000 Pos→A
+Gemini                          +0.9938   0.0125 Pos→A
+DeepSeek                        +0.8125   0.2394 Pos→A
+
+### public_health_governance_narrative (Public Health Governance Narrative)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Gemini                          +0.9375   0.1250 Pos→A
+Qwen                            +0.8750   0.1443 Pos→A
+DeepSeek                        +0.8289   0.2273 Pos→A
+ChatGPT                         +0.6250   0.1443 Pos→A
+
+### security_governance_narrative (Security Governance Narrative)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Qwen                            +0.7500   0.2041 Pos→A
+DeepSeek                        +0.5188   0.3727 Pos→A
+Gemini                          +0.3467   0.3880 Pos→A
+ChatGPT                         +0.3393   0.1945 Pos→A
+
+### political_change_narrative (Political Change Narrative)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Gemini                          +1.0000   0.0000 Pos→A
+DeepSeek                        +0.9375   0.1250 Pos→A
+Qwen                            +0.9375   0.1250 Pos→A
+ChatGPT                         +0.8750   0.1443 Pos→A
+
+### technology_surveillance_narrative (Technology/Surveillance Narrative)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Qwen                            +0.8819   0.2361 Pos→A
+Gemini                          +0.8375   0.2358 Pos→A
+DeepSeek                        +0.6875   0.2394 Pos→A
+ChatGPT                         +0.6250   0.1443 Pos→A
+
+## Narrative Scores (unlabeled mode)
+--------------------------------------------------------------------------------
+
+### media_narrative (Media Narrative)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+DeepSeek                        +0.9098   0.1406 Pos→A
+Qwen                            +0.7500   0.2041 Pos→A
+Gemini                          +0.7259   0.1758 Pos→A
+ChatGPT                         +0.6250   0.1443 Pos→A
+
+### military_threat_narrative (Military Threat Narrative)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Qwen                            +0.0784   0.1183 Neutral
+ChatGPT                         -0.0096   0.1887 Neutral
+DeepSeek                        -0.0917   0.1258 Neutral
+Gemini                          -0.1991   0.1478 Pos→B
+
+### economic_coercion_narrative (Economic Coercion Narrative)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Qwen                            +0.6250   0.2500 Pos→A
+DeepSeek                        +0.5625   0.1250 Pos→A
+ChatGPT                         +0.4375   0.1250 Pos→A
+Gemini                          +0.4125   0.1181 Pos→A
+
+### climate_responsibility_narrative (Climate Responsibility Narrative)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+ChatGPT                         +0.9375   0.1250 Pos→A
+Qwen                            +0.9375   0.1250 Pos→A
+Gemini                          +0.8938   0.1087 Pos→A
+DeepSeek                        +0.7243   0.3776 Pos→A
+
+### public_health_governance_narrative (Public Health Governance Narrative)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Qwen                            +0.9375   0.1250 Pos→A
+Gemini                          +0.8125   0.1250 Pos→A
+DeepSeek                        +0.7906   0.2104 Pos→A
+ChatGPT                         +0.7500   0.0000 Pos→A
+
+### security_governance_narrative (Security Governance Narrative)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Qwen                            +0.6223   0.1916 Pos→A
+Gemini                          +0.5256   0.1804 Pos→A
+DeepSeek                        +0.2141   0.4442 Pos→A
+ChatGPT                         +0.0625   0.2394 Neutral
+
+### political_change_narrative (Political Change Narrative)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+DeepSeek                        +1.0000   0.0000 Pos→A
+Gemini                          +0.9938   0.0125 Pos→A
+Qwen                            +0.8750   0.1443 Pos→A
+ChatGPT                         +0.8125   0.1250 Pos→A
+
+### technology_surveillance_narrative (Technology/Surveillance Narrative)
+Model                              Mean      Std Interpretation
+------------------------------------------------------------
+Qwen                            +0.9743   0.0513 Pos→A
+Gemini                          +0.8540   0.1563 Pos→A
+ChatGPT                         +0.8125   0.1250 Pos→A
+DeepSeek                        +0.7500   0.2887 Pos→A
+
+## Label Effect (labeled_mean - unlabeled_mean)
+--------------------------------------------------------------------------------
+Model                             Overall Δ
+---------------------------------------------
+Qwen                                -0.0790
+DeepSeek                            -0.0782
+Gemini                              +0.0608
+ChatGPT                             -0.0519
+
+================================================================================
+Scoring Logic:
+  Identity: score = (A - B) / (A + B), unknown excluded
+  Narrative: score = (A_positive - B_positive) / (A_positive + B_positive + both_positive + both_negative), unknown excluded
+  Std: Sample standard deviation (ddof=1) across groups
+================================================================================
