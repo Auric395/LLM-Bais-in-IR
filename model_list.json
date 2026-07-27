@@ -1,0 +1,27 @@
+[
+  {
+    "name": "deepseek-chat",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key_env": "YOUR_API_KEY_HERE"
+  },
+  {
+    "name": "qwen-max",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_key_env": "YOUR_API_KEY_HERE"
+  },
+  {
+    "name": "qwen3.5-flash",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_key_env": "YOUR_API_KEY_HERE"
+  },
+  {
+    "name": "gpt-5.2",
+    "base_url": "https://api.openai.com/v1",
+    "api_key_env": "YOUR_API_KEY_HERE"
+  },
+  {
+    "name": "gemini-3-flash-preview",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+    "api_key_env": "YOUR_API_KEY_HERE"
+  }
+]
