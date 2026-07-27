@@ -1,0 +1,9 @@
+stage,term,statistic,df_constraint,pvalue
+Identity,"C(generator, Treatment('DeepSeek'))",5.727532618749741,3,0.12564559033078468
+Identity,"C(judge, Treatment('DeepSeek'))",35.86555262663903,3,7.994879567927881e-08
+Identity,"C(generator, Treatment('DeepSeek')):labeled",5.39492904283245,3,0.14505984391518267
+Identity,"C(judge, Treatment('DeepSeek')):labeled",12.186793152837502,3,0.006769923831890312
+Narrative,"C(generator, Treatment('DeepSeek'))",2.2844208497447354,3,0.5155120269651958
+Narrative,"C(judge, Treatment('DeepSeek'))",14.017885994018764,3,0.0028809076874345293
+Narrative,"C(generator, Treatment('DeepSeek')):labeled",2.007138655443399,3,0.5709263726826139
+Narrative,"C(judge, Treatment('DeepSeek')):labeled",5.035666442815569,3,0.16920402458063283
